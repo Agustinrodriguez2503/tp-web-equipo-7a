@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\banner.PNG" />
     <Content Include="Content\Estilos.css" />
     <Content Include="DatosForm.aspx" />
     <Content Include="Default.aspx" />

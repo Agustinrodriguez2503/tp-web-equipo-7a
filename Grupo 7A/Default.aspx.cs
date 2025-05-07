@@ -13,5 +13,10 @@ namespace Grupo_7A
         {
 
         }
+
+        protected void btnEnviar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("PremiosForm.aspx", false);
+        }
     }
 }

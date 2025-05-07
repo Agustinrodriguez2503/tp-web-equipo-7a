@@ -1,7 +1,13 @@
-﻿.banner{
-    background-color: aqua;
-    width: 100px;
-    height: 100px;
+﻿.banner {
+    background-image: url('banner.png'); /* Cambiá la ruta según dónde esté */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
