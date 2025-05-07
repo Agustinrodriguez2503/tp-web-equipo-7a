@@ -4,11 +4,6 @@
     
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <%--banner--%>
-    <div class="banner">
-        <h1>HOLAAAAAAA</h1>
-    </div>
-
     <div class="row mt-5">
         <div class="col-3"></div>
         <div class="col-6">

@@ -1,10 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\maria\\Desktop\\WEB\\tp-web-equipo-7a\\",
+  "WorkspaceRootPath": "C:\\Users\\agustin\\Desktop\\tp4\\tp-web-equipo-7a\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|c:\\users\\maria\\desktop\\web\\tp-web-equipo-7a\\grupo 7a\\mimaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{D9F4B385-1E26-427D-ACEA-9A123E51EF43}|negocio\\negocio.csproj|c:\\users\\agustin\\desktop\\tp4\\tp-web-equipo-7a\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F4B385-1E26-427D-ACEA-9A123E51EF43}|negocio\\negocio.csproj|solutionrelative:negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|C:\\Users\\agustin\\Desktop\\tp4\\tp-web-equipo-7a\\grupo 7a\\mimaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|solutionrelative:grupo 7a\\mimaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|C:\\Users\\agustin\\Desktop\\tp4\\tp-web-equipo-7a\\grupo 7a\\content\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|solutionrelative:grupo 7a\\content\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|C:\\Users\\agustin\\Desktop\\tp4\\tp-web-equipo-7a\\grupo 7a\\premiosform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|solutionrelative:grupo 7a\\premiosform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|C:\\Users\\agustin\\Desktop\\tp4\\tp-web-equipo-7a\\grupo 7a\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|solutionrelative:grupo 7a\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +30,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\agustin\\Desktop\\tp4\\tp-web-equipo-7a\\Grupo 7A\\Default.aspx",
+              "RelativeDocumentMoniker": "Grupo 7A\\Default.aspx",
+              "ToolTip": "C:\\Users\\agustin\\Desktop\\tp4\\tp-web-equipo-7a\\Grupo 7A\\Default.aspx",
+              "RelativeToolTip": "Grupo 7A\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-07T20:32:49.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PremiosForm.aspx",
+              "DocumentMoniker": "C:\\Users\\agustin\\Desktop\\tp4\\tp-web-equipo-7a\\Grupo 7A\\PremiosForm.aspx",
+              "RelativeDocumentMoniker": "Grupo 7A\\PremiosForm.aspx",
+              "ToolTip": "C:\\Users\\agustin\\Desktop\\tp4\\tp-web-equipo-7a\\Grupo 7A\\PremiosForm.aspx",
+              "RelativeToolTip": "Grupo 7A\\PremiosForm.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-07T20:15:21.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Estilos.css",
+              "DocumentMoniker": "C:\\Users\\agustin\\Desktop\\tp4\\tp-web-equipo-7a\\Grupo 7A\\Content\\Estilos.css",
+              "RelativeDocumentMoniker": "Grupo 7A\\Content\\Estilos.css",
+              "ToolTip": "C:\\Users\\agustin\\Desktop\\tp4\\tp-web-equipo-7a\\Grupo 7A\\Content\\Estilos.css",
+              "RelativeToolTip": "Grupo 7A\\Content\\Estilos.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-07T20:17:45.23Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ArticuloNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\agustin\\Desktop\\tp4\\tp-web-equipo-7a\\negocio\\ArticuloNegocio.cs",
+              "RelativeDocumentMoniker": "negocio\\ArticuloNegocio.cs",
+              "ToolTip": "C:\\Users\\agustin\\Desktop\\tp4\\tp-web-equipo-7a\\negocio\\ArticuloNegocio.cs",
+              "RelativeToolTip": "negocio\\ArticuloNegocio.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwBEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T20:13:35.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MiMaster.Master",
-              "DocumentMoniker": "C:\\Users\\maria\\Desktop\\WEB\\tp-web-equipo-7a\\Grupo 7A\\MiMaster.Master",
+              "DocumentMoniker": "C:\\Users\\agustin\\Desktop\\tp4\\tp-web-equipo-7a\\Grupo 7A\\MiMaster.Master",
               "RelativeDocumentMoniker": "Grupo 7A\\MiMaster.Master",
-              "ToolTip": "C:\\Users\\maria\\Desktop\\WEB\\tp-web-equipo-7a\\Grupo 7A\\MiMaster.Master",
+              "ToolTip": "C:\\Users\\agustin\\Desktop\\tp4\\tp-web-equipo-7a\\Grupo 7A\\MiMaster.Master",
               "RelativeToolTip": "Grupo 7A\\MiMaster.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-07T19:55:03.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T19:55:03.854Z"
             }
           ]
         }

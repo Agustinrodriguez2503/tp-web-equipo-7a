@@ -3,3 +3,22 @@
     width: 100px;
     height: 100px;
 }
+
+
+.custom-carousel {
+    max-width: 400px;
+    margin: auto;
+    border-radius: 1.5rem;
+}
+
+.custom-carousel img {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 1.5rem;
+}
+
+.btn-primary {
+    color: white;
+    background-color: black;
+    border-block-color: black;
+}
