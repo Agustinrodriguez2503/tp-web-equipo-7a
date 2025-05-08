@@ -10,3 +10,9 @@ C:\Users\maria\Desktop\WEB\tp-web-equipo-7a\dominio\obj\Debug\dominio.csproj.Ass
 C:\Users\maria\Desktop\WEB\tp-web-equipo-7a\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
 C:\Users\maria\Desktop\WEB\tp-web-equipo-7a\dominio\obj\Debug\dominio.dll
 C:\Users\maria\Desktop\WEB\tp-web-equipo-7a\dominio\obj\Debug\dominio.pdb
+C:\Users\nahue\Downloads\repo web\tp-web-equipo-7a\dominio\bin\Debug\dominio.dll
+C:\Users\nahue\Downloads\repo web\tp-web-equipo-7a\dominio\bin\Debug\dominio.pdb
+C:\Users\nahue\Downloads\repo web\tp-web-equipo-7a\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\nahue\Downloads\repo web\tp-web-equipo-7a\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\nahue\Downloads\repo web\tp-web-equipo-7a\dominio\obj\Debug\dominio.dll
+C:\Users\nahue\Downloads\repo web\tp-web-equipo-7a\dominio\obj\Debug\dominio.pdb
