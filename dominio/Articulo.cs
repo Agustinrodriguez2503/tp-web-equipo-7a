@@ -21,6 +21,6 @@ namespace dominio
         public Categoria Categoria { get; set; }
         public string Imagen { get; set; }
         public decimal Precio { get; set; }
-        public List<string> Imagenes { get; set; } = new List<string>();
+        public List<Imagenes> Imagenes { get; set; }
     }
 }

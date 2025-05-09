@@ -4,11 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Net;
+using System.Net.Mail;
 using dominio;
 
 namespace negocio
 {
-    internal class ClienteNegocio
+    public class ClienteNegocio
     {
         public List<Cliente> listar()
         {
@@ -75,6 +77,5 @@ namespace negocio
                 datos.cerrarConexion();
             }
         }
-
     }
 }

@@ -16,7 +16,7 @@ namespace negocio
 
             try
             {
-                datos.setearConsulta("SELECT A.Id, Codigo, Nombre, A.Descripcion , IdMarca, M.Descripcion DescripcionM, IdCategoria, C.Descripcion DescripcionC ,Precio FROM ARTICULOS A, MARCAS M, CATEGORIAS C WHERE A.IdCategoria = C.Id AND A.IdMarca = M.Id ");
+                datos.setearConsulta("SELECT A.Id, Codigo, Nombre, A.Descripcion , IdMarca, M.Descripcion DescripcionM,IdCategoria, C.Descripcion DescripcionC ,Precio FROM ARTICULOS A, MARCAS M, CATEGORIAS C WHERE A.IdCategoria = C.Id AND A.IdMarca = M.Id ");
                 datos.ejecutarLectura();
 
                 while (datos.Lector.Read())
@@ -50,6 +50,24 @@ namespace negocio
             {
                 datos.cerrarConexion();
             }
+        }
+        public List<Articulo> ObtenerArticulosConImagenes()
+        {
+            List<Articulo> listaArticulos = listar();
+            ImagenesNegocio imagenesNegocio = new ImagenesNegocio();
+            List<Imagenes> listaImagenes = imagenesNegocio.listar();
+
+            foreach (Articulo articulo in listaArticulos)
+            {
+                articulo.Imagenes = new List<Imagenes>();
+                foreach (Imagenes img in listaImagenes)
+                {
+                    if (img.IdArticulo == articulo.Id)
+                        articulo.Imagenes.Add(img);
+                }
+            }
+
+            return listaArticulos;
         }
     }
 }

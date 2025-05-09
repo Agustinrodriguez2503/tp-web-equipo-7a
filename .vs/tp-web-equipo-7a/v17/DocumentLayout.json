@@ -1,26 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\",
+  "WorkspaceRootPath": "C:\\Users\\agustin\\Desktop\\tp4grupal\\tp-web-equipo-7a\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D9F4B385-1E26-427D-ACEA-9A123E51EF43}|negocio\\negocio.csproj|c:\\users\\nahue\\downloads\\repo web\\tp-web-equipo-7a\\negocio\\vouchernegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9F4B385-1E26-427D-ACEA-9A123E51EF43}|negocio\\negocio.csproj|solutionrelative:negocio\\vouchernegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|c:\\users\\nahue\\downloads\\repo web\\tp-web-equipo-7a\\grupo 7a\\datosform.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|solutionrelative:grupo 7a\\datosform.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|c:\\users\\nahue\\downloads\\repo web\\tp-web-equipo-7a\\grupo 7a\\premiosform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|c:\\users\\agustin\\desktop\\tp4grupal\\tp-web-equipo-7a\\grupo 7a\\premiosform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|solutionrelative:grupo 7a\\premiosform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C60566D8-1C3C-408E-A463-DA21BF7611F5}|dominio\\dominio.csproj|c:\\users\\nahue\\downloads\\repo web\\tp-web-equipo-7a\\dominio\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C60566D8-1C3C-408E-A463-DA21BF7611F5}|dominio\\dominio.csproj|solutionrelative:dominio\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9F4B385-1E26-427D-ACEA-9A123E51EF43}|negocio\\negocio.csproj|c:\\users\\nahue\\downloads\\repo web\\tp-web-equipo-7a\\negocio\\clientenegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9F4B385-1E26-427D-ACEA-9A123E51EF43}|negocio\\negocio.csproj|solutionrelative:negocio\\clientenegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|C:\\Users\\agustin\\Desktop\\tp4grupal\\tp-web-equipo-7a\\grupo 7a\\premiosform.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|solutionrelative:grupo 7a\\premiosform.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PremiosForm.aspx",
-              "DocumentMoniker": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\Grupo 7A\\PremiosForm.aspx",
+              "DocumentMoniker": "C:\\Users\\agustin\\Desktop\\tp4grupal\\tp-web-equipo-7a\\Grupo 7A\\PremiosForm.aspx",
               "RelativeDocumentMoniker": "Grupo 7A\\PremiosForm.aspx",
-              "ToolTip": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\Grupo 7A\\PremiosForm.aspx",
+              "ToolTip": "C:\\Users\\agustin\\Desktop\\tp4grupal\\tp-web-equipo-7a\\Grupo 7A\\PremiosForm.aspx",
               "RelativeToolTip": "Grupo 7A\\PremiosForm.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-09T19:06:31.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Voucher.cs",
-              "DocumentMoniker": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\dominio\\Voucher.cs",
-              "RelativeDocumentMoniker": "dominio\\Voucher.cs",
-              "ToolTip": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\dominio\\Voucher.cs",
-              "RelativeToolTip": "dominio\\Voucher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T17:44:59.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VoucherNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\negocio\\VoucherNegocio.cs",
-              "RelativeDocumentMoniker": "negocio\\VoucherNegocio.cs",
-              "ToolTip": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\negocio\\VoucherNegocio.cs",
-              "RelativeToolTip": "negocio\\VoucherNegocio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T18:29:51.954Z",
+              "WhenOpened": "2025-05-09T22:58:11.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DatosForm.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\Grupo 7A\\DatosForm.aspx.cs",
-              "RelativeDocumentMoniker": "Grupo 7A\\DatosForm.aspx.cs",
-              "ToolTip": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\Grupo 7A\\DatosForm.aspx.cs",
-              "RelativeToolTip": "Grupo 7A\\DatosForm.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "PremiosForm.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\agustin\\Desktop\\tp4grupal\\tp-web-equipo-7a\\Grupo 7A\\PremiosForm.aspx.cs",
+              "RelativeDocumentMoniker": "Grupo 7A\\PremiosForm.aspx.cs",
+              "ToolTip": "C:\\Users\\agustin\\Desktop\\tp4grupal\\tp-web-equipo-7a\\Grupo 7A\\PremiosForm.aspx.cs",
+              "RelativeToolTip": "Grupo 7A\\PremiosForm.aspx.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T18:02:25.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ClienteNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\negocio\\ClienteNegocio.cs",
-              "RelativeDocumentMoniker": "negocio\\ClienteNegocio.cs",
-              "ToolTip": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\negocio\\ClienteNegocio.cs",
-              "RelativeToolTip": "negocio\\ClienteNegocio.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T17:45:27.134Z",
+              "WhenOpened": "2025-05-09T22:48:20.657Z",
               "EditorCaption": ""
             }
           ]
