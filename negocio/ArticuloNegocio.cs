@@ -7,7 +7,7 @@ using dominio;
 
 namespace negocio
 {
-    internal class ArticuloNegocio
+    public class ArticuloNegocio
     {
         public List<Articulo> listar()
         {
@@ -16,7 +16,7 @@ namespace negocio
 
             try
             {
-                datos.setearConsulta("Select A.Id, Codigo, Nombre, A.Descripcion , IdMarca, M.Descripcion DescripcionM, IdCategoria, C.Descripcion DescripcionC ,Precio, I.ImagenUrl from ARTICULOS A, MARCAS M, CATEGORIAS C, IMAGENES I Where A.Id = I.IdArticulo And A.IdCategoria = C.Id And A.IdMarca = M.Id and I.IdArticulo = A.Id");
+                datos.setearConsulta("SELECT A.Id, Codigo, Nombre, A.Descripcion , IdMarca, M.Descripcion DescripcionM, IdCategoria, C.Descripcion DescripcionC ,Precio FROM ARTICULOS A, MARCAS M, CATEGORIAS C WHERE A.IdCategoria = C.Id AND A.IdMarca = M.Id ");
                 datos.ejecutarLectura();
 
                 while (datos.Lector.Read())

@@ -7,7 +7,7 @@ using dominio;
 
 namespace negocio
 {
-    internal class ImagenesNegocio
+    public class ImagenesNegocio
     {
         public List<Imagenes> listar()
         {
@@ -24,7 +24,7 @@ namespace negocio
                     Imagenes aux = new Imagenes();
                     aux.Id = (int)datos.Lector["Id"];
                     aux.IdArticulo = (int)datos.Lector["IdArticulo"];
-                    aux.UrlImagen = (string)datos.Lector["UrlImagen"];
+                    aux.ImagenUrl = (string)datos.Lector["ImagenUrl"];
 
                     lista.Add(aux);
                 }

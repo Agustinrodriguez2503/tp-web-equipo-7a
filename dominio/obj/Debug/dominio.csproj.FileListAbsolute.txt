@@ -16,3 +16,9 @@ C:\Users\nahue\Downloads\repo web\tp-web-equipo-7a\dominio\obj\Debug\dominio.csp
 C:\Users\nahue\Downloads\repo web\tp-web-equipo-7a\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
 C:\Users\nahue\Downloads\repo web\tp-web-equipo-7a\dominio\obj\Debug\dominio.dll
 C:\Users\nahue\Downloads\repo web\tp-web-equipo-7a\dominio\obj\Debug\dominio.pdb
+C:\Users\agustin\Desktop\TPGRUPAL\tp-web-equipo-7a\dominio\bin\Debug\dominio.dll
+C:\Users\agustin\Desktop\TPGRUPAL\tp-web-equipo-7a\dominio\bin\Debug\dominio.pdb
+C:\Users\agustin\Desktop\TPGRUPAL\tp-web-equipo-7a\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\agustin\Desktop\TPGRUPAL\tp-web-equipo-7a\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\agustin\Desktop\TPGRUPAL\tp-web-equipo-7a\dominio\obj\Debug\dominio.dll
+C:\Users\agustin\Desktop\TPGRUPAL\tp-web-equipo-7a\dominio\obj\Debug\dominio.pdb
