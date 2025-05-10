@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using dominio;
+using negocio;
 
 namespace Grupo_7A
 {
@@ -16,7 +18,58 @@ namespace Grupo_7A
 
         protected void btnEnviar_Click(object sender, EventArgs e)
         {
-            Response.Redirect("PremiosForm.aspx", false);
+
+            if (txtCodigo.Text == "")
+            {
+                divAlerta.Visible = true;
+            }
+            else
+            {
+                VoucherNegocio negocio = new VoucherNegocio();
+                string codigo = txtCodigo.Text;
+
+                List<Voucher> vouchers = negocio.listar();
+
+                foreach (Voucher voucher in vouchers)
+                {
+                    if (codigo == voucher.CodVoucher)
+                    {
+                        if (voucher.Cliente is null)
+                        {
+                            Response.Redirect("PremiosForm.aspx", false);
+                        }
+                        else
+                        {
+                            string script = @"
+                        Swal.fire({
+                            icon: 'warning',
+                            title: 'Código ya usado',
+                            text: 'El código ingresado ya fue utilizado. Por favor, probá con otro.',
+                            confirmButtonText: 'Aceptar'
+                        });";
+
+                            ClientScript.RegisterStartupScript(this.GetType(), "alerta", script, true);
+                            txtCodigo.Text = "";
+                            divAlerta.Visible= false;
+
+                            break;
+                        }
+                    }
+                }
+
+                string script2 = @"
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Código inexistente',
+                        text: 'El código ingresado no existe. Por favor, probá con otro.',
+                        confirmButtonText: 'Aceptar'
+                    });";
+
+                ClientScript.RegisterStartupScript(this.GetType(), "alerta", script2, true);
+
+                txtCodigo.Text = "";
+
+            }
         }
     }
 }

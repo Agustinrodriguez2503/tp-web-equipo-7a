@@ -16,19 +16,28 @@ namespace negocio
 
             try
             {
-                datos.setearConsulta("Select CodigoVoucher, IdCliente, FechaCanje, IdArticulo From Imagenes");
+                datos.setearConsulta("Select CodigoVoucher, IdCliente, FechaCanje, IdArticulo From Vouchers");
                 datos.ejecutarLectura();
 
                 while (datos.Lector.Read())
                 {
                     Voucher aux = new Voucher();
                     aux.CodVoucher = (string)datos.Lector["CodigoVoucher"];
-                    aux.Cliente = new Cliente();
-                    aux.Cliente.Id = (int)datos.Lector["IdCliente"];
-                    aux.FechaCanje = (DateTime)datos.Lector["FechaCanje"];
-                    aux.Articulo = new Articulo();
-                    aux.Articulo.Id = (int)datos.Lector["IdArticulo"];
-        
+                    if (!(datos.Lector["IdCliente"] is DBNull))
+                    {
+                        aux.Cliente = new Cliente();
+                        aux.Cliente.Id = (int)datos.Lector["IdCliente"];
+                    }
+                    if (!(datos.Lector["FechaCanje"] is DBNull))
+                    {
+                        aux.FechaCanje = (DateTime)datos.Lector["FechaCanje"];
+                    }
+                    if (!(datos.Lector["IdArticulo"] is DBNull))
+                    {
+                        aux.Articulo = new Articulo();
+                        aux.Articulo.Id = (int)datos.Lector["IdArticulo"];
+                    }
+
 
                     lista.Add(aux);
                 }
