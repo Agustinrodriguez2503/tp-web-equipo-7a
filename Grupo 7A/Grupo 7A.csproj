@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Content\banner.PNG" />
     <Content Include="Content\Estilos.css" />
+    <Content Include="Content\Scripts.js" />
     <Content Include="DatosForm.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
