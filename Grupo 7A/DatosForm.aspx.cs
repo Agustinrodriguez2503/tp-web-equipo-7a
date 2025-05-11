@@ -36,12 +36,12 @@ namespace Grupo_7A
                 txtCiudad.Text = clienteEncontrado.Ciudad;
                 txtCp.Text = clienteEncontrado.CodigoPostal.ToString();
 
-                txtNombre.ReadOnly = true;
-                txtApellido.ReadOnly = true;
-                txtEmail.ReadOnly = true;
-                txtDireccion.ReadOnly = true;
-                txtCiudad.ReadOnly = true;
-                txtCp.ReadOnly = true;
+                //txtNombre.ReadOnly = true;
+                //txtApellido.ReadOnly = true;
+                //txtEmail.ReadOnly = true;
+                //txtDireccion.ReadOnly = true;
+                //txtCiudad.ReadOnly = true;
+                //txtCp.ReadOnly = true;
             }
 
         }
@@ -58,13 +58,7 @@ namespace Grupo_7A
             {
                 clienteEncontrado = new Cliente();
 
-                clienteEncontrado.Documento = txtDni.Text;
-                clienteEncontrado.Nombre = txtNombre.Text;
-                clienteEncontrado.Apellido = txtApellido.Text;
-                clienteEncontrado.Email = txtEmail.Text;
-                clienteEncontrado.Direccion = txtDireccion.Text;
-                clienteEncontrado.Ciudad = txtCiudad.Text;
-                clienteEncontrado.CodigoPostal = int.Parse(txtCp.Text);
+                guardarDatosCliente(clienteEncontrado);
 
                 negocio.registrar(clienteEncontrado);
 
@@ -91,24 +85,23 @@ namespace Grupo_7A
                 ClientScript.RegisterStartupScript(this.GetType(), "alerta", script, true);
 
                 //Registro datos en el obj voucher
-                VoucherNegocio vouchernegocio = new VoucherNegocio();
-                Voucher voucher = new Voucher();
-                Articulo articulo = Session["Articulo"] as Articulo;
+                /*  VoucherNegocio vouchernegocio = new VoucherNegocio();
+                  Voucher voucher = new Voucher();
+                  Articulo articulo = Session["Articulo"] as Articulo;
 
-                string codigoVoucher = Session["codigoVoucher"].ToString();
+                  string codigoVoucher = Session["codigoVoucher"].ToString();
 
 
-                voucher.CodVoucher = codigoVoucher;
-                voucher.Cliente = clienteEncontrado;
-                voucher.FechaCanje = DateTime.Today;
-                voucher.Articulo = articulo;
+                  voucher.CodVoucher = codigoVoucher;
+                  voucher.Cliente = clienteEncontrado;
+                  voucher.FechaCanje = DateTime.Today;
+                  voucher.Articulo = articulo;
+                  vouchernegocio.modificar(voucher);*/
 
-                vouchernegocio.modificar(voucher);
+                guardarDatosCliente(clienteEncontrado);
 
+                negocio.modificar(clienteEncontrado);
             }
-
-
-
 
 
 
@@ -130,6 +123,18 @@ namespace Grupo_7A
             }*/
 
             //Response.Redirect("Default.aspx", false);
+
+        }
+
+        void guardarDatosCliente(Cliente clienteEncontrado)
+        {
+            clienteEncontrado.Documento = txtDni.Text;
+            clienteEncontrado.Nombre = txtNombre.Text;
+            clienteEncontrado.Apellido = txtApellido.Text;
+            clienteEncontrado.Email = txtEmail.Text;
+            clienteEncontrado.Direccion = txtDireccion.Text;
+            clienteEncontrado.Ciudad = txtCiudad.Text;
+            clienteEncontrado.CodigoPostal = int.Parse(txtCp.Text);
         }
     }
 }

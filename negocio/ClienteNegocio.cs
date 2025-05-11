@@ -77,9 +77,38 @@ namespace negocio
                 datos.cerrarConexion();
             }
         }
-        
-        
-        
+
+        public void modificar(Cliente modificar)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                // Modifica en tabla Vouchers
+                datos.setearConsulta("Update Clientes set Documento = @docu, Nombre = @nombre, Apellido = @apellido, Email = @email, Direccion = @dire, Ciudad = @ciudad, CP = @cp Where Id = @id");
+                datos.setearParametro("@docu", modificar.Documento);
+                datos.setearParametro("@nombre", modificar.Nombre);
+                datos.setearParametro("@apellido", modificar.Apellido);
+                datos.setearParametro("@email", modificar.Email);
+                datos.setearParametro("@dire", modificar.Direccion);
+                datos.setearParametro("@ciudad", modificar.Ciudad);
+                datos.setearParametro("@cp", modificar.CodigoPostal);
+                datos.setearParametro("@id", modificar.Id);
+                datos.ejecutarAccion();
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
+
+
         //PARTE DEL REGISTRO DEL MAIL, SE EJECUTA AL APRETAR PARTICIPAR (SI ESTAN TODOS BIEN LOS DATOS)
         public void enviarMail(string correo, string nombre, string premio)
         {
