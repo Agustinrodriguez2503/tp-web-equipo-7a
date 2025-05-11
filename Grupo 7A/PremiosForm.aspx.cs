@@ -42,12 +42,14 @@ namespace Grupo_7A
             litDescripcion.Text = articulo.Descripcion;
 
             //esto hay que sacarlo cuando se capture el articulo seleccionado pero lo dejo para que no se rompa el código
-            Session["Articulo"] = articulo;
+           // Session["Articulo"] = articulo;
         }
 
-        protected void btnSeleccionarUno_Click(object sender, EventArgs e) 
+
+        protected void btnSeleccionarUno_Command(object sender, CommandEventArgs e)
         {
-            Response.Redirect("DatosForm.aspx", false);
+            int idArticulo = int.Parse(e.CommandArgument.ToString());
+            Response.Redirect("DatosForm.aspx?id=" + idArticulo, false);
         }
     }
 }

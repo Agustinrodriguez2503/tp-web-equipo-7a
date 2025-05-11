@@ -103,14 +103,20 @@ namespace Grupo_7A
                 negocio.modificar(clienteEncontrado);
             }
 
+            //ACA ESTA EL ARTICULO QUE NECESITAMOS PARA CARGAR EN EL VOUCHER
+            ArticuloNegocio articuloNegocio = new ArticuloNegocio();
+            Articulo articulo;
+            int idArticuloURL = int.Parse(Request.QueryString["id"]);
+            List<Articulo> articulos = articuloNegocio.listar();
 
+            //EL ARTICULO SELECCIONADO!
+            articulo = articulos.Find(x => x.Id == idArticuloURL);
 
 
             //ESTO ES PARA EL MAIL, TIENE QUE IR DEBAJO DEL REGISTRO DEL CLIENTE.
-            /*
-            string correo = cliente.Email;
-            string nombre = cliente.Nombre;
-            string premioSeleccionado = "EL PREMIO";
+            string correo = txtEmail.Text;
+            string nombre = txtNombre.Text;
+            string premioSeleccionado = articulo.Nombre;
 
             try
             {
@@ -120,9 +126,9 @@ namespace Grupo_7A
             {
 
                 throw ex;
-            }*/
+            }
 
-            //Response.Redirect("Default.aspx", false);
+            
 
         }
 
