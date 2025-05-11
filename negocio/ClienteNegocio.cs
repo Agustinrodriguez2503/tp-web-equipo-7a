@@ -77,5 +77,42 @@ namespace negocio
                 datos.cerrarConexion();
             }
         }
+        
+        
+        
+        //PARTE DEL REGISTRO DEL MAIL, SE EJECUTA AL APRETAR PARTICIPAR (SI ESTAN TODOS BIEN LOS DATOS)
+        public void enviarMail(string correo, string nombre, string premio)
+        {
+            string remitente = "promoweb253@gmail.com";
+            string clave = "kszu sdax pynw sxop";
+
+            MailMessage mensaje = new MailMessage();
+            mensaje.From = new MailAddress(remitente, "Promo WEB");
+            mensaje.To.Add(correo);
+            mensaje.Subject = "Confirmación de participación en Promo WEB";
+            mensaje.IsBodyHtml = true;
+            mensaje.Body = $@"
+                <h3>Hola {nombre}, </h3>
+                <p>Su registro fue exitoso. Estas participando por el premio: <strong>{premio}</strong> </p>
+                <br/>
+                <p>¡Gracias por participar!
+                <br/>
+                Promo WEB</p>";
+
+            SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
+            smtp.Credentials = new NetworkCredential(remitente, clave);
+            smtp.EnableSsl = true;
+
+            try
+            {
+                smtp.Send(mensaje);
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
     }
 }

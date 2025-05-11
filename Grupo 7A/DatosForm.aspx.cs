@@ -109,6 +109,22 @@ namespace Grupo_7A
             {
 
             }
+
+            //ESTO ES PARA EL MAIL, TIENE QUE IR DEBAJO DEL REGISTRO DEL CLIENTE.
+            /*
+            string correo = cliente.Email;
+            string nombre = cliente.Nombre;
+            string premioSeleccionado = "EL PREMIO";
+
+            try
+            {
+                negocio.enviarMail(correo, nombre, premioSeleccionado);
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }*/
         }
     }
 }
