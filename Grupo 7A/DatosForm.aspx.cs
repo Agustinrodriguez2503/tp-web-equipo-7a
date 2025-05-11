@@ -29,29 +29,29 @@ namespace Grupo_7A
 
             //if (dni.Length < 7)
             //{
-                //txtDni.Text = "";
-                //txtNombre.Text = "";
-                //txtApellido.Text = "";
-                //txtEmail.Text = "";
-                //txtDireccion.Text = "";
-                //txtCiudad.Text = "";
-                //txtCp.Text = "";
+            //txtDni.Text = "";
+            //txtNombre.Text = "";
+            //txtApellido.Text = "";
+            //txtEmail.Text = "";
+            //txtDireccion.Text = "";
+            //txtCiudad.Text = "";
+            //txtCp.Text = "";
 
-                //string script = @"
-                //        Swal.fire({
-                //            icon: 'warning',
-                //            title: 'DNI invalido',
-                //            text: 'El DNI no puede tener menos de 7 números. Por favor, ingrese un DNI valido.',
-                //            confirmButtonText: 'Aceptar'
-                //        });";
+            //string script = @"
+            //        Swal.fire({
+            //            icon: 'warning',
+            //            title: 'DNI invalido',
+            //            text: 'El DNI no puede tener menos de 7 números. Por favor, ingrese un DNI valido.',
+            //            confirmButtonText: 'Aceptar'
+            //        });";
 
-                //ClientScript.RegisterStartupScript(this.GetType(), "alerta", script, true);
-                //txtNombre.ReadOnly = false;
-                //txtApellido.ReadOnly = false;
-                //txtEmail.ReadOnly = false;
-                //txtDireccion.ReadOnly = false;
-                //txtCiudad.ReadOnly = false;
-                //txtCp.ReadOnly = false;
+            //ClientScript.RegisterStartupScript(this.GetType(), "alerta", script, true);
+            //txtNombre.ReadOnly = false;
+            //txtApellido.ReadOnly = false;
+            //txtEmail.ReadOnly = false;
+            //txtDireccion.ReadOnly = false;
+            //txtCiudad.ReadOnly = false;
+            //txtCp.ReadOnly = false;
             //}
             if (clienteEncontrado != null)
             {
@@ -105,10 +105,43 @@ namespace Grupo_7A
             List<Cliente> lista = negocio.listar();
             Cliente clienteEncontrado = lista.FirstOrDefault(Cliente => Cliente.Documento == dni);
 
-            if (clienteEncontrado != null)
+            if (clienteEncontrado == null)
             {
+                clienteEncontrado = new Cliente();
 
+                clienteEncontrado.Documento = txtDni.Text;
+                clienteEncontrado.Nombre = txtNombre.Text;
+                clienteEncontrado.Apellido = txtApellido.Text;
+                clienteEncontrado.Email = txtEmail.Text;
+                clienteEncontrado.Direccion = txtDireccion.Text;
+                clienteEncontrado.Ciudad = txtCiudad.Text;
+                clienteEncontrado.CodigoPostal = int.Parse(txtCp.Text);
+
+                negocio.registrar(clienteEncontrado);
+
+                string script = @"
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Ya estás participando!',
+                            text: 'Tus datos han sido registrados correctamente y ya estás participando.',
+                            confirmButtonText: 'Aceptar'
+                        });";
+
+                ClientScript.RegisterStartupScript(this.GetType(), "alerta", script, true);
             }
+            else
+            {
+                string script = @"
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Ya estás participando!',
+                            //text: 'Tus datos han sido registrados correctamente y ya estás participando.',
+                            confirmButtonText: 'Aceptar'
+                        });";
+
+                ClientScript.RegisterStartupScript(this.GetType(), "alerta", script, true);
+            }
+                
 
             //ESTO ES PARA EL MAIL, TIENE QUE IR DEBAJO DEL REGISTRO DEL CLIENTE.
             /*
