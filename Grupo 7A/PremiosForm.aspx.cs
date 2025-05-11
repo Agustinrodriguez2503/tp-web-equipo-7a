@@ -40,6 +40,9 @@ namespace Grupo_7A
             litCarousel.Text = sb.ToString();
             litTitulo.Text = articulo.Nombre;
             litDescripcion.Text = articulo.Descripcion;
+
+            //esto hay que sacarlo cuando se capture el articulo seleccionado pero lo dejo para que no se rompa el código
+            Session["Articulo"] = articulo;
         }
 
         protected void btnSeleccionarUno_Click(object sender, EventArgs e) 

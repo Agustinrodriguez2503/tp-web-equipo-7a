@@ -7,24 +7,40 @@
       "RelativeMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|solutionrelative:grupo 7a\\datosform.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9F4B385-1E26-427D-ACEA-9A123E51EF43}|negocio\\negocio.csproj|C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\negocio\\clientenegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9F4B385-1E26-427D-ACEA-9A123E51EF43}|negocio\\negocio.csproj|solutionrelative:negocio\\clientenegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\grupo 7a\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|solutionrelative:grupo 7a\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\grupo 7a\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|solutionrelative:grupo 7a\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|c:\\users\\nahue\\downloads\\repo web\\tp-web-equipo-7a\\grupo 7a\\premiosform.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|solutionrelative:grupo 7a\\premiosform.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F4B385-1E26-427D-ACEA-9A123E51EF43}|negocio\\negocio.csproj|c:\\users\\nahue\\downloads\\repo web\\tp-web-equipo-7a\\negocio\\vouchernegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F4B385-1E26-427D-ACEA-9A123E51EF43}|negocio\\negocio.csproj|solutionrelative:negocio\\vouchernegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C60566D8-1C3C-408E-A463-DA21BF7611F5}|dominio\\dominio.csproj|c:\\users\\nahue\\downloads\\repo web\\tp-web-equipo-7a\\dominio\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C60566D8-1C3C-408E-A463-DA21BF7611F5}|dominio\\dominio.csproj|solutionrelative:dominio\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\grupo 7a\\content\\scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|solutionrelative:grupo 7a\\content\\scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|c:\\users\\nahue\\downloads\\repo web\\tp-web-equipo-7a\\grupo 7a\\premiosform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|solutionrelative:grupo 7a\\premiosform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C60566D8-1C3C-408E-A463-DA21BF7611F5}|dominio\\dominio.csproj|c:\\users\\nahue\\downloads\\repo web\\tp-web-equipo-7a\\dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C60566D8-1C3C-408E-A463-DA21BF7611F5}|dominio\\dominio.csproj|solutionrelative:dominio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\grupo 7a\\datosform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|solutionrelative:grupo 7a\\datosform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\grupo 7a\\content\\scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|solutionrelative:grupo 7a\\content\\scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\grupo 7a\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BC9A7C7F-D57A-48C2-B716-473E9E16243D}|Grupo 7A\\Grupo 7A.csproj|solutionrelative:grupo 7a\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,19 +50,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ClienteNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\negocio\\ClienteNegocio.cs",
-              "RelativeDocumentMoniker": "negocio\\ClienteNegocio.cs",
-              "ToolTip": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\negocio\\ClienteNegocio.cs",
-              "RelativeToolTip": "negocio\\ClienteNegocio.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAQwEIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "PremiosForm.aspx",
+              "DocumentMoniker": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\Grupo 7A\\PremiosForm.aspx",
+              "RelativeDocumentMoniker": "Grupo 7A\\PremiosForm.aspx",
+              "ToolTip": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\Grupo 7A\\PremiosForm.aspx",
+              "RelativeToolTip": "Grupo 7A\\PremiosForm.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-11T19:44:00.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\dominio\\Cliente.cs",
+              "RelativeDocumentMoniker": "dominio\\Cliente.cs",
+              "ToolTip": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\dominio\\Cliente.cs",
+              "RelativeToolTip": "dominio\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T13:16:13.175Z"
+              "WhenOpened": "2025-05-11T19:04:37.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PremiosForm.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\Grupo 7A\\PremiosForm.aspx.cs",
+              "RelativeDocumentMoniker": "Grupo 7A\\PremiosForm.aspx.cs",
+              "ToolTip": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\Grupo 7A\\PremiosForm.aspx.cs",
+              "RelativeToolTip": "Grupo 7A\\PremiosForm.aspx.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T18:48:04.267Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -56,9 +99,35 @@
               "RelativeDocumentMoniker": "Grupo 7A\\DatosForm.aspx.cs",
               "ToolTip": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\Grupo 7A\\DatosForm.aspx.cs",
               "RelativeToolTip": "Grupo 7A\\DatosForm.aspx.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAwwIkAAABsAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAqwIMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T03:08:36.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Voucher.cs",
+              "DocumentMoniker": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\dominio\\Voucher.cs",
+              "RelativeDocumentMoniker": "dominio\\Voucher.cs",
+              "ToolTip": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\dominio\\Voucher.cs",
+              "RelativeToolTip": "dominio\\Voucher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T18:22:50.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VoucherNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\negocio\\VoucherNegocio.cs",
+              "RelativeDocumentMoniker": "negocio\\VoucherNegocio.cs",
+              "ToolTip": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\negocio\\VoucherNegocio.cs",
+              "RelativeToolTip": "negocio\\VoucherNegocio.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwEMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T18:20:27.995Z",
               "EditorCaption": ""
             },
             {
@@ -71,11 +140,12 @@
               "RelativeToolTip": "Grupo 7A\\Content\\Scripts.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-10T04:10:13.704Z"
+              "WhenOpened": "2025-05-10T04:10:13.704Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "DatosForm.aspx",
               "DocumentMoniker": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\Grupo 7A\\DatosForm.aspx",
               "RelativeDocumentMoniker": "Grupo 7A\\DatosForm.aspx",
@@ -83,23 +153,25 @@
               "RelativeToolTip": "Grupo 7A\\DatosForm.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-10T03:08:30.605Z"
+              "WhenOpened": "2025-05-10T03:08:30.605Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Default.aspx.cs",
               "DocumentMoniker": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\Grupo 7A\\Default.aspx.cs",
               "RelativeDocumentMoniker": "Grupo 7A\\Default.aspx.cs",
               "ToolTip": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\Grupo 7A\\Default.aspx.cs",
               "RelativeToolTip": "Grupo 7A\\Default.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowB0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T01:33:16.137Z"
+              "WhenOpened": "2025-05-10T01:33:16.137Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Default.aspx",
               "DocumentMoniker": "C:\\Users\\nahue\\Downloads\\repo web\\tp-web-equipo-7a\\Grupo 7A\\Default.aspx",
               "RelativeDocumentMoniker": "Grupo 7A\\Default.aspx",
@@ -107,7 +179,8 @@
               "RelativeToolTip": "Grupo 7A\\Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-10T01:33:01.816Z"
+              "WhenOpened": "2025-05-10T01:33:01.816Z",
+              "EditorCaption": ""
             }
           ]
         }

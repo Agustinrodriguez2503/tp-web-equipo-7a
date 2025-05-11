@@ -27,6 +27,7 @@ namespace Grupo_7A
             {
                 VoucherNegocio negocio = new VoucherNegocio();
                 string codigo = txtCodigo.Text;
+                Session["codigoVoucher"] = txtCodigo.Text;
 
                 List<Voucher> vouchers = negocio.listar();
 

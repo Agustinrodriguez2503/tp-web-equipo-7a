@@ -27,32 +27,6 @@ namespace Grupo_7A
             List<Cliente> lista = negocio.listar();
             Cliente clienteEncontrado = lista.FirstOrDefault(Cliente => Cliente.Documento == dni);
 
-            //if (dni.Length < 7)
-            //{
-            //txtDni.Text = "";
-            //txtNombre.Text = "";
-            //txtApellido.Text = "";
-            //txtEmail.Text = "";
-            //txtDireccion.Text = "";
-            //txtCiudad.Text = "";
-            //txtCp.Text = "";
-
-            //string script = @"
-            //        Swal.fire({
-            //            icon: 'warning',
-            //            title: 'DNI invalido',
-            //            text: 'El DNI no puede tener menos de 7 números. Por favor, ingrese un DNI valido.',
-            //            confirmButtonText: 'Aceptar'
-            //        });";
-
-            //ClientScript.RegisterStartupScript(this.GetType(), "alerta", script, true);
-            //txtNombre.ReadOnly = false;
-            //txtApellido.ReadOnly = false;
-            //txtEmail.ReadOnly = false;
-            //txtDireccion.ReadOnly = false;
-            //txtCiudad.ReadOnly = false;
-            //txtCp.ReadOnly = false;
-            //}
             if (clienteEncontrado != null)
             {
                 txtNombre.Text = clienteEncontrado.Nombre;
@@ -69,31 +43,6 @@ namespace Grupo_7A
                 txtCiudad.ReadOnly = true;
                 txtCp.ReadOnly = true;
             }
-            //else
-            //{
-            //    txtNombre.Text = "";
-            //    txtApellido.Text = "";
-            //    txtEmail.Text = "";
-            //    txtDireccion.Text = "";
-            //    txtCiudad.Text = "";
-            //    txtCp.Text = "";
-
-            //    string script = @"
-            //            Swal.fire({
-            //                icon: 'warning',
-            //                title: 'DNI no registrado',
-            //                text: 'El DNI ingresado no está registrado. Por favor, registrate ingresando tus datos.',
-            //                confirmButtonText: 'Aceptar'
-            //            });";
-
-            //    ClientScript.RegisterStartupScript(this.GetType(), "alerta", script, true);
-            //    txtNombre.ReadOnly = false;
-            //    txtApellido.ReadOnly = false;
-            //    txtEmail.ReadOnly = false;
-            //    txtDireccion.ReadOnly = false;
-            //    txtCiudad.ReadOnly = false;
-            //    txtCp.ReadOnly = false;
-            //}
 
         }
 
@@ -140,8 +89,29 @@ namespace Grupo_7A
                         });";
 
                 ClientScript.RegisterStartupScript(this.GetType(), "alerta", script, true);
+
+                //Registro datos en el obj voucher
+                VoucherNegocio vouchernegocio = new VoucherNegocio();
+                Voucher voucher = new Voucher();
+                Articulo articulo = Session["Articulo"] as Articulo;
+
+                string codigoVoucher = Session["codigoVoucher"].ToString();
+
+
+                voucher.CodVoucher = codigoVoucher;
+                voucher.Cliente = clienteEncontrado;
+                voucher.FechaCanje = DateTime.Today;
+                voucher.Articulo = articulo;
+
+                vouchernegocio.modificar(voucher);
+
             }
-                
+
+
+
+
+
+
 
             //ESTO ES PARA EL MAIL, TIENE QUE IR DEBAJO DEL REGISTRO DEL CLIENTE.
             /*
@@ -158,6 +128,8 @@ namespace Grupo_7A
 
                 throw ex;
             }*/
+
+            //Response.Redirect("Default.aspx", false);
         }
     }
 }
