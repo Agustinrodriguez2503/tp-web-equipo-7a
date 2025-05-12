@@ -78,7 +78,7 @@ namespace Grupo_7A
                     Swal.fire({{
                         icon: 'success',
                         title: 'Ya estás participando!',
-                        text: 'Tus datos han sido registrados correctamente y ya estás participando.',
+                        text: 'Tus datos han sido registrados correctamente y ya estás participando. Recibirás una confirmación a tu correo.',
                         confirmButtonText: 'Aceptar',
                         allowOutsideClick: false,
                         allowEscapeKey: false

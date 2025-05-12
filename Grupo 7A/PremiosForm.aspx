@@ -78,7 +78,7 @@
                     </div>
 
                     <!-- Texto y botón debajo -->
-                    <div class="text-center mt-3" style="margin-bottom: 20px">
+                    <div class="text-center mt-3">
                         <h5><asp:Literal ID="litTituloTres" runat="server" /></h5>
                         <p><asp:Literal ID="litDescripcionTres" runat="server" /></p>
                         <asp:Button ID="btnSeleccionarTres" runat="server" CssClass="btn btn-primary btn-select" CommandName="Seleccionar" CommandArgument="3" OnCommand="btnSeleccionarUno_Command" Text="¡Seleccionar!" />

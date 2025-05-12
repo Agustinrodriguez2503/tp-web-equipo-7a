@@ -12,12 +12,12 @@
                 <div class="mb-3">
                     <label for="txtCodigo" class="form-label">Ingrese el código:</label>
                     <asp:TextBox ID="txtCodigo" runat="server" CssClass="form-control"></asp:TextBox>
-                    <div id="divAlerta" runat="server" class="alert alert-warning" visible="false">
-                         Ingrese un codigo, por favor.
+                    <div id="divAlerta" runat="server" class="alert alert-warning alerta-chica" visible="false">
+                         Ingrese un código, por favor.
                     </div>
                 </div>
                 <div class="d-grid gap-2 col-6 mx-auto">
-                    <asp:Button ID="btnEnviar" runat="server" CssClass="btn btn-primary" OnClick="btnEnviar_Click" Text="¡Canjear!" />
+                    <asp:Button ID="btnEnviar" runat="server" CssClass="btn btn-primary btn-select" OnClick="btnEnviar_Click" Text="¡Canjear!" />
                 </div>
             </div>
         </div>
