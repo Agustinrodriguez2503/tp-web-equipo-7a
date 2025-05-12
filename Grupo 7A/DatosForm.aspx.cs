@@ -54,55 +54,6 @@ namespace Grupo_7A
             List<Cliente> lista = negocio.listar();
             Cliente clienteEncontrado = lista.FirstOrDefault(Cliente => Cliente.Documento == dni);
 
-            if (clienteEncontrado == null)
-            {
-                clienteEncontrado = new Cliente();
-
-                guardarDatosCliente(clienteEncontrado);
-
-                negocio.registrar(clienteEncontrado);
-
-                string script = @"
-                        Swal.fire({
-                            icon: 'success',
-                            title: 'Ya estás participando!',
-                            text: 'Tus datos han sido registrados correctamente y ya estás participando.',
-                            confirmButtonText: 'Aceptar'
-                        });";
-
-                ClientScript.RegisterStartupScript(this.GetType(), "alerta", script, true);
-            }
-            else
-            {
-                string script = @"
-                        Swal.fire({
-                            icon: 'success',
-                            title: 'Ya estás participando!',
-                            //text: 'Tus datos han sido registrados correctamente y ya estás participando.',
-                            confirmButtonText: 'Aceptar'
-                        });";
-
-                ClientScript.RegisterStartupScript(this.GetType(), "alerta", script, true);
-
-                //Registro datos en el obj voucher
-                /*  VoucherNegocio vouchernegocio = new VoucherNegocio();
-                  Voucher voucher = new Voucher();
-                  Articulo articulo = Session["Articulo"] as Articulo;
-
-                  string codigoVoucher = Session["codigoVoucher"].ToString();
-
-
-                  voucher.CodVoucher = codigoVoucher;
-                  voucher.Cliente = clienteEncontrado;
-                  voucher.FechaCanje = DateTime.Today;
-                  voucher.Articulo = articulo;
-                  vouchernegocio.modificar(voucher);*/
-
-                guardarDatosCliente(clienteEncontrado);
-
-                negocio.modificar(clienteEncontrado);
-            }
-
             //ACA ESTA EL ARTICULO QUE NECESITAMOS PARA CARGAR EN EL VOUCHER
             ArticuloNegocio articuloNegocio = new ArticuloNegocio();
             Articulo articulo;
@@ -112,6 +63,85 @@ namespace Grupo_7A
             //EL ARTICULO SELECCIONADO!
             articulo = articulos.Find(x => x.Id == idArticuloURL);
 
+            if (clienteEncontrado == null)
+            {
+                clienteEncontrado = new Cliente();
+
+                guardarDatosCliente(clienteEncontrado);
+
+                negocio.registrar(clienteEncontrado);
+
+                //Redirección a default una vez que se clickea en aceptar
+                string urlDeRedireccion = ResolveUrl("~/Default.aspx");
+
+                string script = $@"
+                    Swal.fire({{
+                        icon: 'success',
+                        title: 'Ya estás participando!',
+                        text: 'Tus datos han sido registrados correctamente y ya estás participando.',
+                        confirmButtonText: 'Aceptar',
+                        allowOutsideClick: false,
+                        allowEscapeKey: false
+                    }}).then((result) => {{
+                        if (result.isConfirmed) {{
+                            window.location.href = '{urlDeRedireccion}';
+                        }}
+                    }});";
+
+                ClientScript.RegisterStartupScript(this.GetType(), "alertaConRedireccion", script, true);
+
+                //busco el nuevo registro para saber el ID
+                List<Cliente> listaAux = negocio.listar();
+                Cliente clienteEncontradoAux = listaAux.FirstOrDefault(Cliente => Cliente.Documento == dni);
+
+                //Registro datos en el obj voucher en nuevo cliente
+                VoucherNegocio vouchernegocio = new VoucherNegocio();
+                Voucher voucher = new Voucher();
+
+                string codigoVoucher = Session["codigoVoucher"].ToString();
+
+                voucher.CodVoucher = codigoVoucher;
+                voucher.IdCliente = clienteEncontradoAux.Id;
+                voucher.FechaCanje = DateTime.Today;
+                voucher.IdArticulo = articulo.Id;
+
+                vouchernegocio.modificar(voucher);
+            }
+            else
+            {
+                //Redirección a default una vez que se clickea en aceptar
+                string urlDeRedireccion = ResolveUrl("~/Default.aspx");
+
+                string script = $@"
+                    Swal.fire({{
+                        icon: 'success',
+                        title: 'Ya estás participando!',
+                        confirmButtonText: 'Aceptar',
+                        allowOutsideClick: false,
+                        allowEscapeKey: false
+                    }}).then((result) => {{
+                        if (result.isConfirmed) {{
+                            window.location.href = '{urlDeRedireccion}';
+                        }}
+                    }});";
+
+                ClientScript.RegisterStartupScript(this.GetType(), "alertaConRedireccion", script, true);
+
+                //Registro datos en el obj voucher
+                VoucherNegocio vouchernegocio = new VoucherNegocio();
+                Voucher voucher = new Voucher();
+
+                string codigoVoucher = Session["codigoVoucher"].ToString();
+
+
+                voucher.CodVoucher = codigoVoucher;
+                voucher.IdCliente = clienteEncontrado.Id;
+                voucher.FechaCanje = DateTime.Today;
+                voucher.IdArticulo = articulo.Id;
+
+                vouchernegocio.modificar(voucher);
+
+            }
 
             //ESTO ES PARA EL MAIL, TIENE QUE IR DEBAJO DEL REGISTRO DEL CLIENTE.
             string correo = txtEmail.Text;

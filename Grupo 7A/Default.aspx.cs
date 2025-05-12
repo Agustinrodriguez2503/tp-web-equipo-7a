@@ -33,9 +33,10 @@ namespace Grupo_7A
 
                 foreach (Voucher voucher in vouchers)
                 {
+
                     if (codigo == voucher.CodVoucher)
                     {
-                        if (voucher.Cliente is null)
+                        if (voucher.IdCliente <= 0)
                         {
                             Response.Redirect("PremiosForm.aspx", false);
                         }
@@ -51,7 +52,7 @@ namespace Grupo_7A
 
                             ClientScript.RegisterStartupScript(this.GetType(), "alerta", script, true);
                             txtCodigo.Text = "";
-                            divAlerta.Visible= false;
+                            divAlerta.Visible = false;
 
                             break;
                         }

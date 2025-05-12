@@ -11,11 +11,13 @@ namespace dominio
     {
         public string CodVoucher;
 
-        public Cliente Cliente;
+        //public Cliente Cliente;
+        public int IdCliente;
 
         public DateTime FechaCanje;
 
-        public Articulo Articulo;
+        //public Articulo Articulo;
+        public int IdArticulo;
 
     }
 }

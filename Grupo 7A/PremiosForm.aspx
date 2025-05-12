@@ -29,7 +29,7 @@
                     <div class="text-center mt-3">
                         <h5><asp:Literal ID="litTituloUno" runat="server" /></h5>
                         <p><asp:Literal ID="litDescripcionUno" runat="server" /></p>
-                        <asp:Button ID="btnSeleccionarUno" runat="server" CssClass="btn btn-primary btn-select" CommandName="Seleccionar" CommandArgument="0" OnCommand="btnSeleccionarUno_Command" Text="¡Seleccionar!"/>
+                        <asp:Button ID="btnSeleccionarUno" runat="server" CssClass="btn btn-primary btn-select" CommandName="Seleccionar" CommandArgument="1" OnCommand="btnSeleccionarUno_Command" Text="¡Seleccionar!"/>
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@
                     <div class="text-center mt-3">
                         <h5><asp:Literal ID="litTituloDos" runat="server" /></h5>
                         <p><asp:Literal ID="litDescripcionDos" runat="server" /></p>
-                        <asp:Button ID="btnSeleccionarDos" runat="server" CssClass="btn btn-primary btn-select" CommandName="Seleccionar" CommandArgument="1" OnCommand="btnSeleccionarUno_Command" Text="¡Seleccionar!" />
+                        <asp:Button ID="btnSeleccionarDos" runat="server" CssClass="btn btn-primary btn-select" CommandName="Seleccionar" CommandArgument="2" OnCommand="btnSeleccionarUno_Command" Text="¡Seleccionar!" />
                     </div>
                 </div>
             </div>
@@ -81,7 +81,7 @@
                     <div class="text-center mt-3" style="margin-bottom: 20px">
                         <h5><asp:Literal ID="litTituloTres" runat="server" /></h5>
                         <p><asp:Literal ID="litDescripcionTres" runat="server" /></p>
-                        <asp:Button ID="btnSeleccionarTres" runat="server" CssClass="btn btn-primary btn-select" CommandName="Seleccionar" CommandArgument="2" OnCommand="btnSeleccionarUno_Command" Text="¡Seleccionar!" />
+                        <asp:Button ID="btnSeleccionarTres" runat="server" CssClass="btn btn-primary btn-select" CommandName="Seleccionar" CommandArgument="3" OnCommand="btnSeleccionarUno_Command" Text="¡Seleccionar!" />
                     </div>
                 </div>
             </div>

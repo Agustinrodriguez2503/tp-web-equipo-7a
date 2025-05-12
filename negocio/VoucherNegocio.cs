@@ -25,8 +25,7 @@ namespace negocio
                     aux.CodVoucher = (string)datos.Lector["CodigoVoucher"];
                     if (!(datos.Lector["IdCliente"] is DBNull))
                     {
-                        aux.Cliente = new Cliente();
-                        aux.Cliente.Id = (int)datos.Lector["IdCliente"];
+                        aux.IdCliente = (int)datos.Lector["IdCliente"];
                     }
                     if (!(datos.Lector["FechaCanje"] is DBNull))
                     {
@@ -34,8 +33,7 @@ namespace negocio
                     }
                     if (!(datos.Lector["IdArticulo"] is DBNull))
                     {
-                        aux.Articulo = new Articulo();
-                        aux.Articulo.Id = (int)datos.Lector["IdArticulo"];
+                        aux.IdArticulo = (int)datos.Lector["IdArticulo"];
                     }
 
 
@@ -63,9 +61,9 @@ namespace negocio
                 // Modifica en tabla Vouchers
                 datos.setearConsulta("Update Vouchers set IdCliente = @cliente, FechaCanje = @fechaCanje, IdArticulo = @idArticulo Where CodigoVoucher = @codVoucher");
                 datos.setearParametro("@codVoucher", modificar.CodVoucher);
-                datos.setearParametro("@cliente", modificar.Cliente.Id);
+                datos.setearParametro("@cliente", modificar.IdCliente);
                 datos.setearParametro("@fechaCanje", modificar.FechaCanje);
-                datos.setearParametro("@idArticulo", modificar.Articulo.Id);
+                datos.setearParametro("@idArticulo", modificar.IdArticulo);
                 datos.ejecutarAccion();
 
             }
