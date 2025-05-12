@@ -38,6 +38,7 @@ namespace Grupo_7A
                     {
                         if (voucher.IdCliente <= 0)
                         {
+                            Session["AccesoPermitidoAPremiosForm"] = true;
                             Response.Redirect("PremiosForm.aspx", false);
                         }
                         else

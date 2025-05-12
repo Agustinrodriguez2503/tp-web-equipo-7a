@@ -13,9 +13,12 @@ namespace Grupo_7A
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
+            if (Session["AccesoPermitidoADatosForm"] == null || !(bool)Session["AccesoPermitidoADatosForm"])
             {
-
+                // Redirigir a Default.aspx
+                Response.Redirect("Default.aspx?error=acceso_no_autorizado", false);
+                Context.ApplicationInstance.CompleteRequest();
+                return;
             }
         }
 

@@ -14,6 +14,13 @@ namespace Grupo_7A
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["AccesoPermitidoAPremiosForm"] == null || !(bool)Session["AccesoPermitidoAPremiosForm"])
+            {
+                // Redirigir a Default.aspx
+                Response.Redirect("Default.aspx?error=acceso_no_autorizado", false);
+                Context.ApplicationInstance.CompleteRequest();
+                return;
+            }
             if (!IsPostBack)
             {
                 ArticuloNegocio negocio = new ArticuloNegocio();
@@ -49,6 +56,7 @@ namespace Grupo_7A
         protected void btnSeleccionarUno_Command(object sender, CommandEventArgs e)
         {
             int idArticulo = int.Parse(e.CommandArgument.ToString());
+            Session["AccesoPermitidoADatosForm"] = true;
             Response.Redirect("DatosForm.aspx?id=" + idArticulo, false);
         }
     }
